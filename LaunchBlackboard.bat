@@ -13,12 +13,12 @@ exit
 
 :TuesdayLink
 rem Tuesday link
-start chrome https://us.bbcollab.com/collab/ui/session/join/4f56fdfe5c6f4596a48364241e97d15f
+start chrome https://us.bbcollab.com/guest/b17ff11bab2d418e90903a7813047082
 goto CommonExit
 
 :ThursdayLink
 rem Thursday link
-start chrome https://us.bbcollab.com/collab/ui/session/join/94c70cc6b2f34634b78fde58e30d2f63
+start chrome https://us.bbcollab.com/guest/2bcfd1b06dea4e66810d761e09ea5492
 goto CommonExit
 
 :CommonExit
