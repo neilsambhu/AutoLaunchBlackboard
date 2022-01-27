@@ -1,4 +1,9 @@
-rem @echo off
+@echo off
+rem "rem at the beginning of a line means 'comment'"
+
+rem set displays to "duplicate"
+start DisplaySwitch.exe /clone
+
 for /f %%i in ('powershell ^(get-date^).DayOfWeek') do set dow=%%i
 rem echo %dow%
 rem pause
@@ -17,4 +22,4 @@ start chrome https://us.bbcollab.com/collab/ui/session/join/94c70cc6b2f34634b78f
 goto CommonExit
 
 :CommonExit
-pause
+exit
