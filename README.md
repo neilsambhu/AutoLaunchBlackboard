@@ -9,5 +9,5 @@ Spring 2022 Software Engineering TAs:
 5. Click "Join Session".
 
 To avoid steps 4-5, we will need 
-6. Python to click buttons in the browser based on pixel location or
-7. Permanent, non-guest, Blackboard links.
+1. Python to click buttons in the browser based on pixel location or
+2. Permanent, non-guest, Blackboard links.
