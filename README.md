@@ -1,7 +1,10 @@
 # AutoLaunchBlackboard
 Spring 2022 Software Engineering TAs:
 
-	Use the LaunchBlackboard.bat ("the script") file to automate which Blackboard link opens based on the day of the week.
-After downloading the script as a *.bat file to your desktop: double click the *.bat file. Enter your name and click "Join Session".
+**Use the LaunchBlackboard.bat ("the script") file to automate which Blackboard link opens based on the day of the week.**
+1. Downloading the script as a \*.bat file (https://stackoverflow.com/a/13593430) to your desktop
+2. Double click the \*.bat file. 
+3. Enter your name.
+4. Click "Join Session".
 
-We will need python to click buttons in the browser based on pixel location.
+To avoid steps 3-4, we will need python to click buttons in the browser based on pixel location.
