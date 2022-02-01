@@ -2,7 +2,7 @@
 rem "rem at the beginning of a line means 'comment'"
 
 rem set displays to "duplicate"
-start DisplaySwitch.exe /clone
+DisplaySwitch.exe /clone
 
 for /f %%i in ('powershell ^(get-date^).DayOfWeek') do set dow=%%i
 rem echo %dow%
